@@ -65,7 +65,7 @@ run().catch(console.dir)
 
 //root api
 app.get('/', (req, res)=>{
-    res.send('Response motors server')
+    res.send('To Do List Server')
 })
 //for listen
 app.listen(port, () =>{
